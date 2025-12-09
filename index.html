@@ -1,13 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- <link rel="stylesheet" href="klivio.css">
+    <title>klivio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    hello
-    
+    <header>
+
+        <div id="logo">
+            <a href="#"><img src="/ressources/logo.png" alt=""></a>
+            <a href="#">Les formations</a>
+        </div>
+
+        <div id="menuNavigation">
+            <input type="search" placeholder="Rechercher">
+        </div>
+
+        <div id="inscription_connexion">
+            <button class="btn_inscription">inscription</button>
+            <button class="btn_Connexion">connexion</button>
+
+        </div>
+
+
+    </header>
+    <section id="banniere">
+        <h1>KLIVIO L'ALLIÉ DE VOTRE PROGRESSION</h1>
+        <h2>LES MEILLEURS FORMATIONS SUR LE DEVELOPPEMENT PERSONNEL</h2>
+        <button class="btn_savoirPlus">En savoir plus</button>
+
+    </section>
+    <section id="formations_populaires">
+        <h3>Les formations populaires</h3>
+        <div class="card">
+            <div class="card-image">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte ">
+                <div class="prix_badge">15,99€ <span>60€</span></div>
+            </div>
+            <div class="card_content">
+
+                <h4>Parler en public</h4>
+                <p class="prof">Sonia Lefèvre| Coach prise de parole</p>
+                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                <p class="description">Gagner en aissance et capter votre auratoire</p>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="/ressources/img-course.png" alt="image de font couleur verte">
+                <div class="prix_badge">15,99€ <span>60€</span></div>
+            </div>
+            <div class="card_content">
+
+                <h4>Gérer le stress</h4>
+                <p class="prof">Lucie Garnier| Formatrice</p>
+                <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
+                <p class="description">Apprener à rester sérein face au défit</p>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte">
+                <div class="prix_badge">15,99€ <span>60€</span></div>
+            </div>
+            <div class="card_content">
+
+                <h4>Travailler en équipe</h4>
+                <p class="prof">David Moreau| Expert</p>
+                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                <p class="description">Collaborer efficacemment, même à distance</p>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
+                <div class="prix_badge">15,99€ <span>60€</span></div>
+            </div>
+            <div class="card_content">
+
+                <h4>Gérer son temps</h4>
+                <p class="prof">Claire Dumas| Coach organisation</p>
+                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                <p class="description">Optimisez vos journées et ganer en efficacité</p>
+
+            </div>
+
+        </div>
+        <div class="voir_plus">
+            <a href="#">Voir plus de formations</a>
+
+        </div>
+
+    </section>
+
+    <section id="formation1">
+        <h3 class="title_formation">Les formations récentes</h3>
+        <div id="formation_recente">
+
+            <div class="card1">
+                <div class="card-image1">
+                    <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
+                    <div class="prix_badge">15,99€ <span>60€</span></div>
+                </div>
+                <div class="card_content1">
+
+                    <h4>Mieux communiquer</h4>
+                    <p class="prof1">Julien Martel| Coach en comm.</p>
+                    <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                    <p class="description1">Améliorez vos échanges et votre
+                        impact relationnel</p>
+
+                </div>
+
+                <div class="card1">
+                    <div class="card-image1">
+                        <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
+                        <div class="prix_badge">15,99€ <span>60€</span></div>
+                    </div>
+                    <div class="card_content1">
+
+                        <h4>Maîtriser ses émotions</h4>
+                        <p class="prof1">Amel Benali| Psy. du travail</p>
+                        <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                        <p class="description1">Développez calme et intelligence
+                            émotionnelle</p>
+
+                    </div>
+
+                    <div class="card1">
+                        <div class="card-image1">
+                            <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
+                            <div class="prix_badge">15,99€ <span>60€</span></div>
+                        </div>
+                        <div class="card_content1">
+
+                            <h4>Résoudre les problèmes</h4>
+                            <p class="prof1">Thomas Rivière| Expert</p>
+                            <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles">
+                            </div>
+                            <p class="description1">Analysez, décidez et trouvez des
+                                solutions durables</p>
+
+                        </div>
+
+                        <div class="card1">
+                            <div class="card-image1">
+                                <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
+                                <div class="prix_badge">15,99€ <span>60€</span></div>
+                            </div>
+                            <div class="card_content1">
+
+                                <h4>Leadership positif</h4>
+                                <p class="prof1">Marc Nguyen| Expert</p>
+                                <div class="etoiles"><img src="/ressources/note1.svg"
+                                        alt="note exprimée avec 4 étoiles"></div>
+                                <p class="description1">inspirez, motivez et fédérez votre équipe</p>
+
+                            </div>
+
+
+                            <div class="voir_plus1">
+                                <a href="#">Voir plus de formations</a>
+
+                            </div>
+
+
+
+    </section>
+
+
+    <section id="avis">
+        <h2 class="title_avis">AVIS CLIENTS</h2>
+        <div class="avis_client">
+            <img src="/ressources/juliette.png" alt="image de la cliente Juliette" class="image_client">
+            <h3 class="prenom_client">Juliette</h3>
+            <img src="/ressources/note.svg" alt="note exprimé avec 5 étoiles de la part de Juliette">
+            <p>J'ai trouvé le parcours tr s bien structuré : vidéos courtes, quizzes pertinents et projets
+                pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire
+                et la progression est motivante parfait pour se former en autonomie.</p>
+
+        </div>
+
+        <div class="avis_client">
+
+            <img src="/ressources/camille.png" alt="image de la cliente Camille" class="image_client">
+            <h3 class="prenom_client">Camille</h3>
+            <img src="/ressources/note.svg" alt="note exprimé avec 5 étoiles de la part de Camille">
+            <p>Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les corrections
+                automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
+
+        </div>
+
+    </section>
+
+    <section id="avantage_klivio">
+        <div id="avantage_card">
+            <div class="avantage">
+                <img src="/ressources/arrow-up-right.svg" alt="suivie de sa progression">
+                <p>Suivi de sa progression</p>
+
+            </div>
+            <div class="avantage">
+                <img src="/ressources/edit-01.svg" alt="exercice pour la pratique">
+                <p>Exercices et QCM pour la mise en pratique</p>
+            </div>
+
+            <div class="avantage">
+                <img src="/ressources/download-02.png" alt="télécharger/ imprimer sa formation">
+                <p>Possibilité de télécharger imprimer les formations</p>
+            </div>
+
+            <div class="avantage">
+                <img src="/ressources/star-02.svg" alt="vérifier son contenu">
+                <p>Contenu qualitatif et vérifié</p>
+            </div>
+
+            <div class="avantage">
+                <img src="/ressources/clock-backward.svg" alt="suivi en autonomie">
+                <p>Suivi en autonomie, 24h/24, 7j/7</p>
+            </div>
+
+            <div class="avantage">
+                <img src="/ressources/annotation-typing.svg"
+                    alt="Espaces d'échange pour poer des questions sur la formation">
+                <p>Espaces d’échanges dédiés pour poser ses questions sur les formations</p>
+            </div>
+        </div>
+        <div id="avantage_card1">
+            <img src="/ressources/avantages.png" alt="image d'une collaboratrice sur son poste de travail" class="avantage_card1">
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <div id="visio">
+                <img src="/ressources/become-author.png" alt="coaching en visio" class="visio_coaching">
+            </div>
+
+            <div id="Creez_formation">
+             <h1 class="Creez_formation">Créez vos formations avec Klivio</h1>
+                <div class="card_formation">
+                  <img src="/ressources/coin-hand.svg" alt="commission unique, au pourcentage de vente">
+                  <p>Commission unique, au pourcentage sur les ventes</p>
+                </div>
+
+                <div class="card_formation">
+                    <img src="/ressources/heart.svg" alt="mise en avant de la plateforme">
+                    <p>Mise en avant sur la plateforme</p>
+                </div>
+                 <div class="card_formation">
+                    <img src="/ressources/pencil-01.svg" alt="contrôle sur les cours et les prix">
+                    <p>Contrôle total sur le cours : contenu, prix</p>
+                </div>
+                
+                 <div class="card_formation">
+                    <img src="/ressources/settings.svg" alt="fonctionnalitées avancées">
+                    <p>Fonctionnalités avancées : espace commentaires,possibilité de créer des QCM, exercices, vidéos,téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
+                </div>
+
+                <div class="card_formation">
+                    <img src="/ressources/user-profile-square.svg" alt="conservation du droit d'auteur">
+                    <p>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<a href=""></a>
+
 </body>
+
 </html>
