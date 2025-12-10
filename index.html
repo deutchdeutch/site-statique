@@ -16,171 +16,153 @@
 <body>
     <header>
 
-        <div id="logo">
-            <a href="#"><img src="/ressources/logo.png" alt=""></a>
-            <a href="#">Les formations</a>
-        </div>
+        <img src="/ressources/logo.png" alt="logo klivio" class="logo_header">
 
-        <div id="menuNavigation">
-            <input type="search" placeholder="Rechercher">
+        <a href="#" class="lien_formation">Les formations</a>
+
+        <div class="search_container">
+            <input type="search" placeholder="Rechercher" class="space">
         </div>
 
         <div id="inscription_connexion">
-            <button class="btn_inscription">inscription</button>
-            <button class="btn_Connexion">connexion</button>
+            <button class="btn_connexion">Connexion</button>
+            <button class="btn_inscription">Inscription</button>
 
         </div>
 
 
     </header>
-    <section id="banniere">
-        <h1>KLIVIO L'ALLIÉ DE VOTRE PROGRESSION</h1>
-        <h2>LES MEILLEURS FORMATIONS SUR LE DEVELOPPEMENT PERSONNEL</h2>
-        <button class="btn_savoirPlus">En savoir plus</button>
 
-    </section>
-    <section id="formations_populaires">
-        <h3>Les formations populaires</h3>
-        <div class="card">
-            <div class="card-image">
-                <img src="/ressources/img-course.png" alt="image de fond couleur verte ">
-                <div class="prix_badge">15,99€ <span>60€</span></div>
-            </div>
-            <div class="card_content">
 
-                <h4>Parler en public</h4>
-                <p class="prof">Sonia Lefèvre| Coach prise de parole</p>
-                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
-                <p class="description">Gagner en aissance et capter votre auratoire</p>
 
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-image">
-                <img src="/ressources/img-course.png" alt="image de font couleur verte">
-                <div class="prix_badge">15,99€ <span>60€</span></div>
-            </div>
-            <div class="card_content">
-
-                <h4>Gérer le stress</h4>
-                <p class="prof">Lucie Garnier| Formatrice</p>
-                <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
-                <p class="description">Apprener à rester sérein face au défit</p>
-
-            </div>
-
-        </div>
-        <div class="card">
-            <div class="card-image">
-                <img src="/ressources/img-course.png" alt="image de fond couleur verte">
-                <div class="prix_badge">15,99€ <span>60€</span></div>
-            </div>
-            <div class="card_content">
-
-                <h4>Travailler en équipe</h4>
-                <p class="prof">David Moreau| Expert</p>
-                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
-                <p class="description">Collaborer efficacemment, même à distance</p>
-
-            </div>
-
-        </div>
-        <div class="card">
-            <div class="card-image">
-                <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
-                <div class="prix_badge">15,99€ <span>60€</span></div>
-            </div>
-            <div class="card_content">
-
-                <h4>Gérer son temps</h4>
-                <p class="prof">Claire Dumas| Coach organisation</p>
-                <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
-                <p class="description">Optimisez vos journées et ganer en efficacité</p>
-
-            </div>
-
-        </div>
-        <div class="voir_plus">
-            <a href="#">Voir plus de formations</a>
-
+    <section>
+        <div id="banniere">
+            <h1 class="titre1_banniere">KLIVIO L'ALLIÉ DE VOTRE PROGRESSION</h1>
+            <p class="titre2_banniere">LES MEILLEURS FORMATIONS SUR LE DEVELOPPEMENT PERSONNEL</p>
+            <button class="btn_savoirPlus">En savoir plus</button>
         </div>
 
     </section>
 
-    <section id="formation1">
-        <h3 class="title_formation">Les formations récentes</h3>
-        <div id="formation_recente">
+
+    <section id="grande_card">
+        <h3 class="titre_formation">Les formations populaires</h3>
+
+        <div id="formation_section">
+
+            <div class="card">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content">
+
+                    <h4 class="message">Parler en public</h4>
+                    <p class="prof">Sonia Lefèvre| Coach prise de parole</p>
+                    <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                    <p class="description">Gagner en aissance et capter votre auratoire</p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content">
+
+                    <h4 class="message">Gérer le stress</h4>
+                    <p class="prof">Lucie Garnier| Formatrice</p>
+                    <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
+                    <p class="description">Apprener à rester serein face au défis</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte" class="image1">
+                <div class="prix_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content">
+
+                    <h4 class="message">Travailler en équipe</h4>
+                    <p class="prof">David Moreau| Expert</p>
+                    <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                    <p class="description">Collaborer efficacemment, même à distance</p>
+
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content">
+
+                    <h4 class="message">Parler en public</h4>
+                    <p class="prof">Sonia Lefèvre| Coach prise de parole</p>
+                    <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
+                    <p class="description">Gagner en aissance et capter votre auratoire</p>
+
+                </div>
+            </div>
+        </div>
+                <div class="btn_container"><button class="btn_voirplus">Voir plus de formations</button></div>
+                     
+    </section>
+
+     <section id="grande_card1">
+        <h3 class="titre1_formation">Les formations récentes</h3>
+
+        <div id="formation_section1">
 
             <div class="card1">
-                <div class="card-image1">
-                    <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
-                    <div class="prix_badge">15,99€ <span>60€</span></div>
-                </div>
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
                 <div class="card_content1">
 
-                    <h4>Mieux communiquer</h4>
+                    <h4 class="message1">Mieux communiquer</h4>
                     <p class="prof1">Julien Martel| Coach en comm.</p>
-                    <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
-                    <p class="description1">Améliorez vos échanges et votre
-                        impact relationnel</p>
+                    <div class="etoile"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
+                    <p class="description">Améliorez vos échanges et votre impact relationnel</p>
+
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix1_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content1">
+
+                    <h4 class="message1">Maîtriser ses émotions</h4>
+                    <p class="prof1">Amel Benali| Psy. du travail</p>
+                    <div class="etoile"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
+                    <p class="description">Développez calme et intelligence émotionnelle</p>
+
+                </div>
+            </div>
+            <div class="card1">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte" class="image1">
+                <div class="prix1_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content1">
+
+                    <h4 class="message1">Résoudre les problèmes</h4>
+                    <p class="prof1">Thomas Rivière| Expert</p>
+                    <div class="etoile"><img src="/ressources/note1.svg" alt="note exprimée avec 5 étoiles"></div>
+                    <p class="description">Anal sez, décidez et trouvez des solutions durables</p>
 
                 </div>
 
-                <div class="card1">
-                    <div class="card-image1">
-                        <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
-                        <div class="prix_badge">15,99€ <span>60€</span></div>
-                    </div>
-                    <div class="card_content1">
+            </div>
+            <div class="card1">
+                <img src="/ressources/img-course.png" alt="image de fond couleur verte " class="image1">
+                <div class="prix1_badge"><span class="prix">15,99€</span> <span class="prix_barre">60€</span></div>
+                <div class="card_content1">
 
-                        <h4>Maîtriser ses émotions</h4>
-                        <p class="prof1">Amel Benali| Psy. du travail</p>
-                        <div class="etoiles"><img src="/ressources/note.svg" alt="note exprimée avec 5 étoiles"></div>
-                        <p class="description1">Développez calme et intelligence
-                            émotionnelle</p>
+                    <h4 class="message1">Leadership positif</h4>
+                    <p class="prof1">Marc Nguyen| Consultant</p>
+                    <div class="etoile"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles"></div>
+                    <p class="description">Inspirez,motivez et fédérez votre équipe</p>
 
-                    </div>
-
-                    <div class="card1">
-                        <div class="card-image1">
-                            <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
-                            <div class="prix_badge">15,99€ <span>60€</span></div>
-                        </div>
-                        <div class="card_content1">
-
-                            <h4>Résoudre les problèmes</h4>
-                            <p class="prof1">Thomas Rivière| Expert</p>
-                            <div class="etoiles"><img src="/ressources/note1.svg" alt="note exprimée avec 4 étoiles">
-                            </div>
-                            <p class="description1">Analysez, décidez et trouvez des
-                                solutions durables</p>
-
-                        </div>
-
-                        <div class="card1">
-                            <div class="card-image1">
-                                <img src="/ressources/img-course.png" alt="image de fond de couleur verte">
-                                <div class="prix_badge">15,99€ <span>60€</span></div>
-                            </div>
-                            <div class="card_content1">
-
-                                <h4>Leadership positif</h4>
-                                <p class="prof1">Marc Nguyen| Expert</p>
-                                <div class="etoiles"><img src="/ressources/note1.svg"
-                                        alt="note exprimée avec 4 étoiles"></div>
-                                <p class="description1">inspirez, motivez et fédérez votre équipe</p>
-
-                            </div>
-
-
-                            <div class="voir_plus1">
-                                <a href="#">Voir plus de formations</a>
-
-                            </div>
-
-
-
+                </div>
+            </div>
+        </div>
+                <div class="btn1_container"><button class="btn1_voirplus">Voir plus de formations</button></div>
+                     
     </section>
 
 
@@ -242,7 +224,8 @@
             </div>
         </div>
         <div id="avantage_card1">
-            <img src="/ressources/avantages.png" alt="image d'une collaboratrice sur son poste de travail" class="avantage_card1">
+            <img src="/ressources/avantages.png" alt="image d'une collaboratrice sur son poste de travail"
+                class="avantage_card1">
 
         </div>
 
@@ -255,24 +238,26 @@
             </div>
 
             <div id="Creez_formation">
-             <h1 class="Creez_formation">Créez vos formations avec Klivio</h1>
+                <h1 class="Creez_formation">Créez vos formations avec Klivio</h1>
                 <div class="card_formation">
-                  <img src="/ressources/coin-hand.svg" alt="commission unique, au pourcentage de vente">
-                  <p>Commission unique, au pourcentage sur les ventes</p>
+                    <img src="/ressources/coin-hand.svg" alt="commission unique, au pourcentage de vente">
+                    <p>Commission unique, au pourcentage sur les ventes</p>
                 </div>
 
                 <div class="card_formation">
                     <img src="/ressources/heart.svg" alt="mise en avant de la plateforme">
                     <p>Mise en avant sur la plateforme</p>
                 </div>
-                 <div class="card_formation">
+                <div class="card_formation">
                     <img src="/ressources/pencil-01.svg" alt="contrôle sur les cours et les prix">
                     <p>Contrôle total sur le cours : contenu, prix</p>
                 </div>
-                
-                 <div class="card_formation">
+
+                <div class="card_formation">
                     <img src="/ressources/settings.svg" alt="fonctionnalitées avancées">
-                    <p>Fonctionnalités avancées : espace commentaires,possibilité de créer des QCM, exercices, vidéos,téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
+                    <p>Fonctionnalités avancées : espace commentaires,possibilité de créer des QCM, exercices,
+                        vidéos,téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos,
+                        gestion de la facturation, etc</p>
                 </div>
 
                 <div class="card_formation">
@@ -283,7 +268,43 @@
             </div>
         </div>
     </section>
-<a href=""></a>
+    <section id="a_propos">
+        <div class="card_apropos">
+            <h2 class="titre_propos">À propos de Klivio</h2>
+            <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous
+                engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité
+                de leur travail. <br> <br>
+
+                Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
+                nécessaire pour explorer divers sujets. La transparence est au cœur de notre
+                démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble,ces
+                valeurs forment le socle d'une ducation enrichissante et équitable, guidant notre mission d'offrir des
+                opportunités d'apprentissage de qualité</p>
+
+        </div>
+        <div>
+            <img src="/ressources/logo.png" alt="logo de Klivio" class="logo_klivio">
+        </div>
+
+    </section>
+    <section id="contacter">
+        <form action="">
+            <h2 class="titre_contacter">Nous contacter</h2>
+            <input type="text" placeholder="nom">
+            <input type="email" placeholder="email"> <br> <br>
+            <textarea name="" id="" placeholder="votre message"></textarea> <br>
+            <input type="submit" class="btn_sumit">
+
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <img src="/ressources/logo.png" alt="logo klivio">
+
+        </div>
+    </footer>
+    <a href=""></a>
 
 </body>
 
