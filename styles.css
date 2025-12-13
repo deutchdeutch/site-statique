@@ -23,6 +23,10 @@ header {
     gap: 0;
 }
 
+#menu_burger {
+    display: none;
+}
+
 .logo_header {
     width: 84px;
     height: 31px;
@@ -125,8 +129,8 @@ header {
 
 .titre1_banniere {
     margin-top: 151px;
-   /* margin-left: 0 329px;*/
-   text-align: center;
+    /* margin-left: 0 329px;*/
+    text-align: center;
     align-content: center;
     font-weight: 800;
     font-size: 48px;
@@ -184,15 +188,19 @@ header {
 }
 
 .image1 {
-    width: 100%;
+
+    width: 305px;
     height: 206px;
+    top: 136px;
+    left: 45px;
+
 
 }
 
 .card_content {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 21px;
@@ -206,32 +214,37 @@ header {
 }
 
 .message {
-margin-bottom: 11px;
+    margin-bottom: 11px;
 }
-.prof{
+
+.prof {
     margin-bottom: 5px;
 }
-.etoiles{
+
+.etoiles {
     margin-bottom: 10.8px;
 }
-.btn_voirplus{
-border-radius: 6px;
-background-color:#152237;
-color: #FFFFFF;
-width: 225px;
-height: 40px;
-justify-content: center;
-align-content: center;
+
+.btn_voirplus {
+    border-radius: 6px;
+    background-color: #152237;
+    color: #FFFFFF;
+    width: 225px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
 
 }
-.btn_container{
+
+.btn_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     margin-top: 43px;
 }
-.prix_badge{
+
+.prix_badge {
     position: absolute;
     width: 120px;
     min-height: 31.58px;
@@ -239,12 +252,12 @@ align-content: center;
     background-color: #152237;
     color: #FFFFFF;
     width: 120;
-left: 50%;
-top: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 11px;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
 
 }
 
@@ -257,24 +270,26 @@ margin-left: 11px;
     align-items: center;
     margin-right: 12.58px;
 }*/
-.prix{
-font-weight: 700;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: -1.5%;
+.prix {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -1.5%;
 
 }
-.prix_barre{
-font-family: "Montserrat";
-font-weight: 400;
-font-style: "Regular";
-font-size: 10px;
-line-height: 7px;
-letter-spacing: -1.5%;
-text-decoration: line-through;
-margin-left: 7px;
+
+.prix_barre {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 10px;
+    line-height: 7px;
+    letter-spacing: -1.5%;
+    text-decoration: line-through;
+    margin-left: 7px;
 
 }
+
 .titre1_formation {
     font-weight: 800;
     font-size: 30px;
@@ -311,14 +326,17 @@ margin-left: 7px;
 .card_content1 {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 21px;
 
 
 }
-.message1 ,.prof1 ,.description{
+
+.message1,
+.prof1,
+.description {
     color: #FFFFFF;
 }
 
@@ -328,32 +346,40 @@ margin-left: 7px;
 }
 
 .message1 {
-margin-bottom: 11px;
+    margin-bottom: 11px;
 }
-.prof1{
+
+.prof1 {
     margin-bottom: 5px;
 }
-.etoile{
+
+.etoile {
     margin-bottom: 10.8px;
 }
-.btn1_voirplus{
-border-radius: 6px;
-background-color:#FFFFFF;
-color: #152237;
-width: 225px;
-height: 40px;
-justify-content: center;
-align-content: center;
+
+.btn1_voirplus {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #152237;
+    width: 225px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
 
 }
-.btn1_container{
+
+.btn1_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     margin-top: 43px;
 }
-.prix1_badge{
+
+.prix1_badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 120px;
     min-height: 31.58px;
@@ -361,12 +387,9 @@ align-content: center;
     background-color: #152237;
     color: #FFFFFF;
     width: 120;
-left: 50%;
-top: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 11px;
+    left: 50%;
+    top: 50%;
+    margin-left: 11px;
 
 }
 
@@ -379,21 +402,1307 @@ margin-left: 11px;
     align-items: center;
     margin-right: 12.58px;
 }*/
-.prix1{
-font-weight: 700;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: -1.5%;
+.prix1 {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -1.5%;
 
 }
-.prix1_barre{
-font-family: Montserrat;
-font-weight: 400;
-font-style: "Regular";
-font-size: 10px;
-line-height: 7px;
-letter-spacing: -1.5%;
-text-decoration: line-through;
-margin-left: 7px;
+
+.prix1_barre {
+    display: flex;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 10px;
+    line-height: 7px;
+    letter-spacing: -1.5%;
+    text-decoration: line-through;
+    margin-left: 7px;
+
+}
+
+#avis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 58px;
+    width: 100%;
+    height: 597px;
+    gap: 30px;
+}
+
+.title_avis {
+
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 58px;
+
+}
+
+.image_client {
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.avis_client {
+    width: 100%;
+    height: 306px;
+
+}
+
+.message3 {
+    margin-top: 13.8px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+
+}
+
+.image2 {
+    margin-top: 7px;
+}
+
+#avantage_klivio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 641px;
+    padding-top: 75px;
+
+}
+
+.title_avantage {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.avantage {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 78px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+
+
+}
+
+.image_card1 {
+    width: 700px;
+    height: 467px;
+    margin-bottom: 76px;
+    margin-right: 103px;
+    object-fit: contain;
+
+}
+
+/* .symbole {
+    width: 727px;
+    height: 472px;
+    
+
+} */
+
+.avantage_card {
+    padding-right: 98px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+    gap: 15px;
+
+
+    /*height: 295px;*/
+}
+
+.title_klivio {
+    margin-bottom: 43px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+
+
+}
+
+#grand_container {
+    background-color: #44DD8A;
+    width: 100%;
+    height: 641px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    gap: 78px;
+    padding: 79px;
+}
+
+.new_formation {
+    width: 100%;
+    height: 352px;
+}
+
+.formation3 {
+    display: none;
+}
+
+.element_list {
+    list-style: none;
+    padding: 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+    width: 400px;
+
+}
+
+.element_list li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+.element_list li::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    gap: 15px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 39px;
+    margin-top: 10px;
+    background-position: center;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+
+}
+
+.vente::before {
+    background-image: url("/ressources/coin-hand.svg");
+}
+
+.plateforme::before {
+    background-image: url("/ressources/heart.svg");
+}
+
+.contenu::before {
+    background-image: url("/ressources/pencil-01.svg");
+}
+
+.facturation::before {
+    background-image: url("/ressources/settings.svg");
+}
+
+.conservation::before {
+    background-image: url("/ressources/user-profile-square.svg");
+}
+
+.visio_coaching {
+    width: 100%;
+    height: 467px;
+    object-fit: cover;
+}
+
+.formation2 {
+
+    font-family: "Montserrat";
+    font-style: Black;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+    margin-bottom: 39px;
+    text-transform: uppercase;
+
+}
+
+#a_propos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    height: 740px;
+}
+
+.propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+
+}
+
+.logo_propos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #152237;
+    margin-left: 61px;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+
+}
+
+
+.titre_propos {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    margin-bottom: 18px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.card_propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 103px;
+    /* padding: 103px; */
+    margin-bottom: 14px;
+    width: 50%;
+    height: 372px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+
+}
+
+/* .paragraphe {
+    width: 686;
+    height: 372;
+    top: 184px;
+    left: 103px;
+    
+    opacity: 1;
+
+} */
+
+.div_propos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre_contacter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #44DD8A;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+
+#contacter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    margin-top: 39px;
+    width: 80%;
+
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+
+}
+
+#username {
+    width: 45%;
+    height: 45.25px;
+    background-color: #152237;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+
+}
+
+input::placeholder {
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+#usermail {
+    width: 45%;
+    height: 45.25px;
+    background-color: #152237;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+
+}
+
+.texte {
+    width: 100%;
+    height: 194.64px;
+    background-color: #152237;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+
+}
+
+.texte::placeholder {
+    color: #FFFFFF
+}
+
+;
+
+.tt {
+    border-radius: 6px;
+}
+
+#btn_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 15vw;
+    color: #152237;
+    background-color: #44DD8A;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 77.42px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #152237;
+    border-top: 18px solid #44DD8A;
+    width: 100%;
+    height: 489px;
+
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
+.divider {
+    border-bottom: 1px solid #44DD8A;
+    margin-left: 91px;
+    margin-right: 91px;
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 91px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+}
+
+.image_footer {
+    width: 34.51%;
+    height: 87px;
+
+
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 100px; */
+}
+
+.footer_contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.mention {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    color: #FFFFFF;
+
+
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+
+}
+
+
+.lien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    width: 100%;
+    gap: 21px
+}
+
+.acces_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn2_connexion {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #152237;
+
+}
+
+.btn2_inscription {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background: linear-gradient(to right,
+            rgba(68, 221, 138, 1),
+            rgba(21, 183, 226, 1));
+
+}
+
+.social_network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+    gap: 21px;
+}
+
+.end_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    margin-left: 96px;
+    margin-right: 50px;
+
+}
+
+.telephone {
+    width: 24px;
+    height: 24px;
+}
+
+.texte_gras {
+    font-weight: bold;
+}
+
+@media (min-width:393px) and (max-width: 800px) {
+    /* body {
+        height: 5549.8vh;
+    } */
+
+    * {
+        text-decoration: none;
+        list-style: none;
+        font-family: "Montserrat";
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0;
+
+    }
+
+    ;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        width: 100vw;
+        background-color: #152237;
+        height: 80px;
+        /* padding: 0 6.125rem;  */
+    }
+
+    #menu_burger {
+        display: flex;
+    }
+
+    .lien_formation {
+        display: none;
+    }
+
+    .search_container {
+        display: none;
+    }
+
+    #inscription_connexion {
+        display: none;
+        visibility: 0;
+    }
+
+    #banniere {
+        background-image: linear-gradient(94.01deg,
+                rgba(68, 221, 138, 0.8) 3.11%,
+                rgba(21, 183, 226, 0.8) 98.45%),
+            url("../ressources/bg-header.png");
+
+
+        height: 30.58%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+
+    }
+
+    .btn_savoirPlus {
+        width: 130px;
+        height: 40px;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        margin-bottom: 34px;
+        border-color: #FFFFFF;
+
+    }
+
+    .titre1_banniere {
+        margin-top: 47px;
+        /* margin-left: 0 329px;*/
+
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-style: "ExtraBold";
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+
+
+
+    }
+
+    .titre2_banniere {
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: Medium;
+        text-align: center;
+        /*margin-right: 155px;*/
+        align-content: center;
+        width: 100vw;
+
+    }
+
+    #grande_card {
+        height: auto;
+        width: 100vw;
+        padding: 30px;
+        margin-top: 0;
+        background-color: #FFFFFF;
+    }
+
+    #formation_section {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-between;
+        align-items: center;
+        width: 100vw;
+        gap: 30px;
+    }
+
+    .card {
+
+        width: 100vh;
+        /* position: absolute; */
+    }
+
+    .titre_formation {
+        font-weight: 800;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 34px;
+        text-align: center;
+
+
+    }
+
+    .image1 {
+        width: 305px;
+        height: 206px;
+
+    }
+
+    .prix_badge {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        position: absolute;
+        background-color: #152237;
+        color: #FFFFFF;
+        left: 45%;
+        top: 55%;
+        margin-left: 11px;
+        width: 120px;
+        height: 31.58px;
+        border-radius: 7, 77%;
+
+    }
+
+    .card1 {
+
+        width: 100vh;
+        /* position: absolute; */
+    }
+
+    /* .titre1_formation {
+        font-weight: 800;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 34px;
+        text-align: center;
+    } */
+
+    #grande_card1 {
+        height: auto;
+        width: 100%;
+        padding: 30px;
+        margin-top: 0;
+        background-color: #152237;
+    }
+
+    .titre1_formation {
+        font-weight: 800;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 34px;
+        text-align: center;
+
+    }
+
+    #formation_section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        gap: 30px;
+    }
+
+    .prix1_badge {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        position: absolute;
+        background-color: #152237;
+        color: #FFFFFF;
+        left: 45%;
+        top: 55%;
+        margin-left: 11px;
+        width: 120px;
+        height: 31.58px;
+        border-radius: 7, 77%;
+
+    }
+
+    .btn_savoirPlus {
+        width: 130px;
+        height: 40px;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        margin-top: 22px;
+        border-color: #FFFFFF;
+        align-items: center;
+
+    }
+
+    .btn1_voirplus {
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        color: #152237;
+        width: 225px;
+        height: 40px;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .title_avis {
+
+        font-family: "Montserrat";
+        font-weight: 900;
+        font-style: Black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 58px;
+
+    }
+
+    #avis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 58px;
+        width: 100%;
+        height: auto;
+        gap: 30px;
+    }
+
+    .avis_client {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        font-family: "Montserrat";
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -1.5%;
+
+
+    }
+
+    .image_client {
+        border-radius: 50%;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+    #avantage_klivio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        background-color: #F5F5F5;
+        height: auto;
+        padding-top: 6.25%;
+
+    }
+
+    .avantage_card {
+        padding-bottom: 8.16%;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+        gap: 15px;
+        height: auto;
+    }
+
+    /* .symbole {
+        width: 27.25%;
+        height: 20.33%;
+    } */
+
+    .avantage {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        /* padding-bottom: 20px; */
+        font-family: "Montserrat";
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+    }
+
+    .image_card1 {
+        width: 327px;
+        height: 244px;
+        margin-bottom: 76px;
+        margin-left: 103px;
+        object-fit: contain;
+        text-align: center;
+    }
+
+
+    .visio_coaching {
+        width: 327px;
+        height: 244px;
+        margin-left: 103px;
+        margin-right: 103px;
+        object-fit: contain;
+        text-align: center;
+        /* margin-bottom: 200px; */
+    }
+
+    #grand_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        background-color: #44DD8A;
+        padding-top: 6.25%;
+        gap: 6.5%;
+    }
+
+    .formation2 {
+        display: none;
+    }
+
+    .formation3 {
+        display: flex;
+        font-family: "Montserrat";
+        margin-bottom: 27px;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+        text-transform: uppercase;
+        /* margin-bottom: 200px; */
+    }
+
+    .new_formation {
+        width: 100vw;
+        height: auto;
+    }
+
+    .element_list {
+        list-style: none;
+        padding: 0;
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+        width: 100vw;
+
+    }
+
+    .element_list li {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.6;
+    }
+
+    .element_list li::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        gap: 15px;
+        flex-shrink: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 39px;
+        margin-top: 10px;
+        background-position: center;
+        line-height: 25px;
+        letter-spacing: -1.5%;
+
+    }
+
+    .vente::before {
+        background-image: url("/ressources/coin-hand.svg");
+    }
+
+    .plateforme::before {
+        background-image: url("/ressources/heart.svg");
+    }
+
+    .contenu::before {
+        background-image: url("/ressources/pencil-01.svg");
+    }
+
+    .facturation::before {
+        background-image: url("/ressources/settings.svg");
+    }
+
+    .conservation::before {
+        background-image: url("/ressources/user-profile-square.svg");
+    }
+
+    /* #a_propos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    } */
+
+    .div_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+
+    .card_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        /* margin-left: 30px; */
+        padding: 10px;
+        margin-bottom: 14px;
+        width: 100vw;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -1.5%;
+
+    }
+
+
+    .logo_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #152237;
+        width: 100vw;
+        height: 50%;
+
+    }
+
+    .image_propos {
+        width: 214px;
+        height: 77px;
+        text-align: center;
+
+
+    }
+
+
+
+    .titre_propos {
+        display: flex;
+        font-family: "Montserrat";
+        font-weight: 900;
+        font-style: Black;
+        font-size: 40px;
+        margin-bottom: 27px;
+        text-align: center;
+        margin-top: 10px;
+        line-height: 35px;
+        letter-spacing: -1.5%;
+        text-transform: uppercase;
+
+    }
+
+    #contacter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .titre_contacter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        /* margin-top: 29px; */
+        text-transform: uppercase;
+        border-bottom: none;
+        font-family: "Montserrat";
+        font-weight: 900;
+        font-style: Black;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: -1.5%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        text-align: center;
+        margin-top: 39px;
+        width: 80%;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 20px;
+        width: 100%;
+
+    }
+
+    #username {
+        width: 100vw;
+        height: 45.25px;
+        background-color: #152237;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+    }
+
+    input::placeholder {
+        color: #FFFFFF;
+        margin-right: 16px;
+    }
+
+    #usermail {
+        width: 100vw;
+        height: 45.25px;
+        background-color: #152237;
+        color: #FFFFFF;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+    }
+
+    .texte {
+        width: 100vw;
+        height: 194.64px;
+        background-color: #152237;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+    }
+
+    .texte::placeholder {
+        color: #FFFFFF
+    }
+
+    ;
+
+    .tt {
+        border-radius: 6px;
+    }
+
+    #btn_submit {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: stretch;
+        text-align: center;
+        width: 90vw;
+        color: #152237;
+        background-color: #44DD8A;
+        border: none;
+        /* padding: 10px; */
+        border-radius: 6px;
+        /* margin-bottom: 77.42px; */
+        /* margin-left: 19px; */
+        /* margin-right: 18px; */
+    }
+    .footer_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+   
+}
+
+    .card_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    
+    /* padding: 91px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+}
+
+    .div-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        width: 100vw;
+        height: auto;
+        /* gap: 10px */
+    }
+
+.container_footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+
+}
+
+    .image_footer {
+        width: 243px;
+        height: 87px;
+        margin-bottom: 83px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .acces_footer {
+        display: none;
+
+    }
+
+
+
+    .social_network {
+        display: none;
+
+    }
+
+    .end_footer {
+        display: none;
+
+
+    }
+
+    .klivio_2025 {
+        display: none;
+    }
+
+    /* .telephone {
+        width: 24px;
+        height: 24px;
+    } */
+
+    .texte_gras {
+        font-weight: bold;
+        text-align: center;
+    }
+
 
 }
