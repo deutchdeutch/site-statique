@@ -720,7 +720,6 @@ header {
 .div_propos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -997,9 +996,13 @@ footer {
 }
 
 @media (min-width:393px) and (max-width: 800px) {
+
     /* body {
         height: 5549.8vh;
     } */
+    htlm {
+        overflow-x: hidden;
+    }
 
     * {
         text-decoration: none;
@@ -1117,7 +1120,7 @@ footer {
 
     .card {
 
-        width: 100vh;
+        width: 100vw;
         /* position: absolute; */
     }
 
@@ -1155,7 +1158,7 @@ footer {
 
     .card1 {
 
-        width: 100vh;
+        width: 100%;
         /* position: absolute; */
     }
 
@@ -1449,7 +1452,7 @@ footer {
         align-items: center;
         margin-right: 30px;
         /* margin-left: 30px; */
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 14px;
         width: 100vw;
         height: auto;
@@ -1546,7 +1549,7 @@ footer {
     }
 
     #username {
-        width: 100vw;
+        width: 90vw;
         height: 45.25px;
         background-color: #152237;
         font-family: "Montserrat";
@@ -1563,7 +1566,7 @@ footer {
     }
 
     #usermail {
-        width: 100vw;
+        width: 90vw;
         height: 45.25px;
         background-color: #152237;
         color: #FFFFFF;
@@ -1576,7 +1579,7 @@ footer {
     }
 
     .texte {
-        width: 100vw;
+        width: 90vw;
         height: 194.64px;
         background-color: #152237;
         color: #FFFFFF;
@@ -1632,7 +1635,7 @@ footer {
         align-items: center;
         background-color: #152237;
         width: 100%;
-    margin-bottom: 50px;
+        margin-bottom: 50px;
         /* padding: 91px; */
         /* margin-left: 50px; */
         /* margin-right: 50px; */
@@ -1698,9 +1701,9 @@ footer {
         height: 24px;
     } */
 
-     .texte_gras {
+    .texte_gras {
         font-weight: bold;
-        text-align: center; 
+        text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
         color: #FFFFFF;
@@ -1711,7 +1714,7 @@ footer {
         margin-bottom: 5px;
         justify-content: center;
     }
-     
+
     /* .lien p{
         margin: 0;
         color: #FFFFFF;
