@@ -1255,13 +1255,25 @@ footer {
         height: auto;
         gap: 30px;
     }
+    .message3 {
+    margin-top: 13.8px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+    margin-left: 40px;
+    width: 100vw;
+    
+
+}
 
     .avis_client {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         height: auto;
         font-family: "Montserrat";
         font-weight: 300;
@@ -1696,10 +1708,10 @@ footer {
         display: none;
     }
 
-    /* .telephone {
+    .telephone {
         width: 24px;
         height: 24px;
-    } */
+    }
 
     .texte_gras {
         font-weight: bold;
