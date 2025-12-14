@@ -986,9 +986,19 @@ footer {
 
 }
 
+.div-contact .symbole1 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    margin-right: 10px;
+    display: block;
+}
+
 .telephone {
     width: 24px;
     height: 24px;
+    margin-right: 31px;
+
 }
 
 .texte_gras {
@@ -1255,18 +1265,19 @@ footer {
         height: auto;
         gap: 30px;
     }
-    .message3 {
-    margin-top: 13.8px;
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: -1.5%;
-    margin-left: 40px;
-    width: 100vw;
-    
 
-}
+    .message3 {
+        margin-top: 13.8px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -1.5%;
+        margin-left: 40px;
+        width: 100vw;
+
+
+    }
 
     .avis_client {
         display: flex;
@@ -1711,6 +1722,11 @@ footer {
     .telephone {
         width: 24px;
         height: 24px;
+        margin-right: 31px;
+    }
+
+    .numero {
+        margin-right: 15px;
     }
 
     .texte_gras {
@@ -1725,6 +1741,14 @@ footer {
         text-align: center;
         margin-bottom: 5px;
         justify-content: center;
+    }
+
+    .div-contact .symbole1 {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        margin-right: 10px;
+        display: block;
     }
 
     /* .lien p{
