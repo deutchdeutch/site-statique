@@ -986,6 +986,7 @@ footer {
 }
 
 @media (max-width: 800px) {
+   @media (max-width: 800px) {
     header {
         display: flex;
         flex-direction: row;
@@ -1020,8 +1021,8 @@ footer {
         line-height: 100%;
         letter-spacing: -1.5%;
         text-align: center;
-        width: 90%;
-        height: auto;
+        width: 360px;
+        height: 117px;
 
     }
 
@@ -1032,8 +1033,8 @@ footer {
         font-style: Medium;
         text-align: center;
         align-content: center;
-        width: 90%;
-        height: auto;
+        width: 360px;
+        height: 72px;
 
     }
 
@@ -1070,8 +1071,8 @@ footer {
     }
 
     .titre_formation {
-        width: 90%;
-        height: auto;
+        width: 335px;
+        height: 80px;
         font-weight: 800;
         font-style: "ExtraBold";
         font-size: 30px;
@@ -1090,8 +1091,7 @@ footer {
     }
 
     .image1 {
-        width: 90%;
-        max-width: 305px;
+        width: 305px;
         height: 206px;
         text-align: center;
     }
@@ -1211,21 +1211,20 @@ footer {
     }
 
     .message3 {
-        width: 90%;
-        height: auto;
+        width: 340.45px;
+        height: 90px;
         font-family: "Montserrat";
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: -1.5%;
-        margin:  0 auto;
-    
+        height: auto;
 
     }
 
     .message4 {
-        width: 90%;
-        height: auto;
+        width: 351.18px;
+        height: 90px;
         top: 4958px;
         left: 15.82px;
         font-family: "Montserrat";
@@ -1233,8 +1232,7 @@ footer {
         font-size: 16px;
         line-height: 30px;
         letter-spacing: -1.5%;
-        /* margin-bottom: 20px; */
-        margin: 0 auto 20px auto;
+        margin-bottom: 20px;
 
     }
 
@@ -1267,12 +1265,12 @@ footer {
     }
 
     .image_card1 {
-        width: 90%;
-        height: auto;
+        width: 327px;
+        height: 244px;
         top: 550px;
         left: 33px;
         text-align: center;
-        margin: 34px auto;
+        margin: 34px;
     }
 
     .titre_formation {
@@ -1320,9 +1318,11 @@ footer {
     }
 
     .image_author {
-        width: 90%;
-        height: auto;
-        margin: 0 auto
+        width: 324px;
+        height: 243px;
+        top: 119px;
+        left: 34px;
+        margin: 0;
 
     }
 
@@ -1445,9 +1445,8 @@ footer {
         justify-content: space-around;
         gap: 20px;
         text-align: center;
-        margin-top: 39px auto;
-        width: 90%;
-        max-width: 800px;
+        margin-top: 39px;
+        width: 100%;
     }
 
     .name {
@@ -1661,5 +1660,7 @@ footer {
         display: block;
     }
 
+
+}
 
 }
