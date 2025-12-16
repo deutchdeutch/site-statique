@@ -164,10 +164,15 @@ header {
 .titre_formation {
     font-weight: 800;
     font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 34px;
+    margin-top: 34px;
+    margin-bottom: 10px;
 
 
+}
+.card_prix{
+    width: 305px;
+    height: 206px;
+    position: relative;
 }
 
 #grande_card {
@@ -187,15 +192,7 @@ header {
     gap: 30px;
 }
 
-.image1 {
 
-    width: 305px;
-    height: 206px;
-    top: 136px;
-    left: 45px;
-
-
-}
 
 .card_content {
     display: flex;
@@ -208,10 +205,7 @@ header {
 
 }
 
-.card {
-    width: 100%;
-    position: relative;
-}
+
 
 .message {
     margin-bottom: 11px;
@@ -251,9 +245,9 @@ header {
     border-radius: 93px;
     background-color: #152237;
     color: #FFFFFF;
-    width: 120;
-    left: 50%;
-    top: 50%;
+    width: 120px;
+    left: 160px;
+    top: 178px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,15 +255,6 @@ header {
 
 }
 
-/*.prix_badge span{
-    text-decoration: line-through;
-    height: 7px;
-    width: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12.58px;
-}*/
 .prix {
     font-weight: 700;
     font-size: 20px;
@@ -387,28 +372,17 @@ header {
     background-color: #152237;
     color: #FFFFFF;
     width: 120;
-    left: 50%;
-    top: 50%;
+    left: 160px;
+    top: 178px;
     margin-left: 11px;
-
 }
 
-/*.prix_badge span{
-    text-decoration: line-through;
-    height: 7px;
-    width: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12.58px;
-}*/
 .prix1 {
     display: flex;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: -1.5%;
-
 }
 
 .prix1_barre {
@@ -479,8 +453,12 @@ header {
     width: 100%;
     background-color: #F5F5F5;
     height: 641px;
-    padding-top: 75px;
+    padding: 50px;
 
+}
+
+.second_formation {
+    display: none;
 }
 
 .title_avantage {
@@ -502,26 +480,30 @@ header {
     line-height: 28px;
     letter-spacing: -1.5%;
 
+}
 
+.liste_avantages {
+    margin-bottom: 10px;
+    gap: 30px;
+    width: 100%;
+    height: auto;
 }
 
 .image_card1 {
-    width: 700px;
-    height: 467px;
-    margin-bottom: 76px;
-    margin-right: 103px;
-    object-fit: contain;
-
+   width: 727px;
+height: 472px;   
+    
+}
+.colonne_texte{
+    margin-top:  40px; ;
 }
 
-/* .symbole {
-    width: 727px;
-    height: 472px;
-    
-
-} */
 
 .avantage_card {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+
     padding-right: 98px;
     font-family: "Montserrat";
     font-weight: 400;
@@ -554,7 +536,7 @@ header {
     justify-content: center;
     align-content: space-around;
     gap: 78px;
-    padding: 79px;
+    padding:25px;
 }
 
 .new_formation {
@@ -566,66 +548,66 @@ header {
     display: none;
 }
 
-.element_list {
-    list-style: none;
-    padding: 0;
-    font-family: "Montserrat";
-    font-size: 16px;
-    color: #000000;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -1.5%;
-    width: 400px;
 
-}
-
-.element_list li {
+.avantage_item {
     display: flex;
     align-items: flex-start;
-    line-height: 1.6;
+    margin-bottom: 15px;
+    gap: 15px;
 }
 
-.element_list li::before {
-    content: "";
+.icone {
     display: block;
     width: 30px;
     height: 30px;
-    gap: 15px;
-    flex-shrink: 0;
+    min-width: 30px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 39px;
-    margin-top: 10px;
     background-position: center;
-    line-height: 28px;
-    letter-spacing: -1.5%;
 
 }
 
-.vente::before {
+.texte_avantage {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.vente {
     background-image: url("/ressources/coin-hand.svg");
 }
 
-.plateforme::before {
+.plateforme {
     background-image: url("/ressources/heart.svg");
 }
 
-.contenu::before {
+.contenu {
     background-image: url("/ressources/pencil-01.svg");
 }
 
-.facturation::before {
+.facturation {
     background-image: url("/ressources/settings.svg");
 }
 
-.conservation::before {
+.conservation {
     background-image: url("/ressources/user-profile-square.svg");
 }
 
-.visio_coaching {
-    width: 100%;
-    height: 467px;
-    object-fit: cover;
+.container_interne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 30px;
+}
+
+.image_author {
+    width: 729px;
+    height: 487px;
+    margin-top: 78px;
+    margin-bottom: 76px;
+    pointer-events: none;
+  
 }
 
 .formation2 {
@@ -640,6 +622,7 @@ header {
     text-transform: uppercase;
 
 }
+
 
 #a_propos {
     display: flex;
@@ -664,13 +647,18 @@ header {
     letter-spacing: -1.5%;
 
 }
+.paragraphe_propos{
+    width: 82.65%;
+    height: auto;
+   
+}
 
 .logo_propos {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #152237;
-    margin-left: 61px;
+    /* margin-left: 61px; */
     height: 100%;
     width: 50%;
     object-fit: cover;
@@ -695,8 +683,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 103px;
-    /* padding: 103px; */
     margin-bottom: 14px;
     width: 50%;
     height: 372px;
@@ -707,15 +693,7 @@ header {
 
 }
 
-/* .paragraphe {
-    width: 686;
-    height: 372;
-    top: 184px;
-    left: 103px;
-    
-    opacity: 1;
 
-} */
 
 .div_propos {
     display: flex;
@@ -872,8 +850,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     padding: 91px;
-    /* margin-left: 50px; */
-    /* margin-right: 50px; */
+
 }
 
 .image_footer {
@@ -885,7 +862,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* gap: 100px; */
+
 }
 
 .footer_contain {
@@ -971,7 +948,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 100%; */
     gap: 21px;
 }
 
@@ -1005,36 +981,15 @@ footer {
     font-weight: bold;
 }
 
-@media (min-width:393px) and (max-width: 800px) {
-
-    /* body {
-        height: 5549.8vh;
-    } */
-    htlm {
-        overflow-x: hidden;
-    }
-
-    * {
-        text-decoration: none;
-        list-style: none;
-        font-family: "Montserrat";
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0;
-
-    }
-
-    ;
-
+@media (max-width: 800px) {
     header {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 30px;
-        width: 100vw;
-        background-color: #152237;
+        justify-content: space-around;
+        width: 100%;
         height: 80px;
-        /* padding: 0 6.125rem;  */
+
+
     }
 
     #menu_burger {
@@ -1051,51 +1006,18 @@ footer {
 
     #inscription_connexion {
         display: none;
-        visibility: 0;
-    }
-
-    #banniere {
-        background-image: linear-gradient(94.01deg,
-                rgba(68, 221, 138, 0.8) 3.11%,
-                rgba(21, 183, 226, 0.8) 98.45%),
-            url("../ressources/bg-header.png");
-
-
-        height: 30.58%;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-
-    }
-
-    .btn_savoirPlus {
-        width: 130px;
-        height: 40px;
-        border-radius: 6px;
-        background-color: #FFFFFF;
-        margin-bottom: 34px;
-        border-color: #FFFFFF;
-
     }
 
     .titre1_banniere {
         margin-top: 47px;
-        /* margin-left: 0 329px;*/
-
-        font-family: "Montserrat";
-        font-weight: 800;
+        font-weight: 900;
         font-style: "ExtraBold";
-        font-size: 20px;
+        font-size: 32px;
         line-height: 100%;
         letter-spacing: -1.5%;
         text-align: center;
-        vertical-align: middle;
-        text-transform: uppercase;
-
-
+        width: 360px;
+        height: 117px;
 
     }
 
@@ -1105,120 +1027,20 @@ footer {
         font-weight: 500;
         font-style: Medium;
         text-align: center;
-        /*margin-right: 155px;*/
         align-content: center;
-        width: 100vw;
+        width: 360px;
+        height: 72px;
 
     }
 
-    #grande_card {
-        height: auto;
-        width: 100vw;
-        padding: 30px;
-        margin-top: 0;
-        background-color: #FFFFFF;
-    }
+    #banniere {
 
-    #formation_section {
         display: flex;
         flex-direction: column;
-        justify-items: space-between;
-        align-items: center;
-        width: 100vw;
-        gap: 30px;
-    }
-
-    .card {
-
-        width: 100vw;
-        /* position: absolute; */
-    }
-
-    .titre_formation {
-        font-weight: 800;
-        font-size: 40px;
-        margin-top: 10px;
-        margin-bottom: 34px;
-        text-align: center;
-
-
-    }
-
-    .image1 {
-        width: 305px;
-        height: 206px;
-
-    }
-
-    .prix_badge {
-        display: flex;
         justify-content: center;
-        /* align-items: center; */
-        position: absolute;
-        background-color: #152237;
-        color: #FFFFFF;
-        left: 45%;
-        top: 55%;
-        margin-left: 11px;
-        width: 120px;
-        height: 31.58px;
-        border-radius: 7, 77%;
-
-    }
-
-    .card1 {
-
+        align-items: center;
         width: 100%;
-        /* position: absolute; */
-    }
-
-    /* .titre1_formation {
-        font-weight: 800;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 34px;
-        text-align: center;
-    } */
-
-    #grande_card1 {
         height: auto;
-        width: 100%;
-        padding: 30px;
-        margin-top: 0;
-        background-color: #152237;
-    }
-
-    .titre1_formation {
-        font-weight: 800;
-        font-size: 40px;
-        margin-top: 10px;
-        margin-bottom: 34px;
-        text-align: center;
-
-    }
-
-    #formation_section1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        gap: 30px;
-    }
-
-    .prix1_badge {
-        display: flex;
-        justify-content: center;
-        /* align-items: center; */
-        position: absolute;
-        background-color: #152237;
-        color: #FFFFFF;
-        left: 45%;
-        top: 55%;
-        margin-left: 11px;
-        width: 120px;
-        height: 31.58px;
-        border-radius: 7, 77%;
 
     }
 
@@ -1227,159 +1049,222 @@ footer {
         height: 40px;
         border-radius: 6px;
         background-color: #FFFFFF;
-        margin-top: 22px;
-        border-color: #FFFFFF;
+        margin-bottom: 34px;
+
+    }
+
+    
+
+
+    #grande_card {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
         align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .titre_formation {
+        width: 335px;
+        height: 80px;
+        font-weight: 800;
+        font-style: "ExtraBold";
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+    }
+
+    #formation_section {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .image1 {
+        width: 305px;
+        height: 206px;
+        text-align: center;
+    }
+
+    .btn_voirplus {
+        border-radius: 6px;
+        width: 225px;
+        height: 40px;
+        justify-content: center;
+        align-content: center;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+   
+
+    #grande_card1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .titre1_formation {
+        width: 335px;
+        height: 80px;
+        font-weight: 800;
+        font-style: "ExtraBold";
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+    }
+
+    #formation_section1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
 
     }
 
     .btn1_voirplus {
         border-radius: 6px;
-        background-color: #FFFFFF;
-        color: #152237;
         width: 225px;
         height: 40px;
         justify-content: center;
         align-content: center;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
 
+    }
+    #conteneur_avis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .title_avis {
-
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 289px;
+        height: 36px;
         font-family: "Montserrat";
         font-weight: 900;
+        width: 289;
+        height: auto;
+        top: 28px;
+        left: 52px;
         font-style: Black;
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
         text-align: center;
-        margin-top: 58px;
+        text-transform: uppercase;
+
 
     }
 
     #avis {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        padding: 58px;
-        width: 100%;
+        justify-content: center;
+        gap: 20px;
         height: auto;
-        gap: 30px;
-    }
-
-    .message3 {
-        margin-top: 13.8px;
-        font-family: "Montserrat";
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: -1.5%;
-        margin-left: 40px;
-        width: 100vw;
-
-
+        width: 100%;
     }
 
     .avis_client {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 100vw;
+        gap: 20px;
         height: auto;
+        width: 100%;
+    }
+
+    .message3 {
+        width: 340.45px;
+        height: 90px;
         font-family: "Montserrat";
-        font-weight: 300;
+        font-weight: 400;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: -1.5%;
-
+        height: auto;
 
     }
 
-    .image_client {
-        border-radius: 50%;
-        margin-top: 3px;
-        text-align: center;
+    .message4 {
+        width: 351.18px;
+        height: 90px;
+        top: 4958px;
+        left: 15.82px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -1.5%;
+        margin-bottom: 20px;
+
     }
 
     #avantage_klivio {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        width: 100vw;
-        background-color: #F5F5F5;
         height: auto;
-        padding-top: 6.25%;
-
+        width: 100%;
+        gap: 30px;
     }
-
-    .avantage_card {
-        padding-bottom: 8.16%;
-        font-family: "Montserrat";
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: -1.5%;
-        gap: 15px;
-        height: auto;
-    }
-
-    /* .symbole {
-        width: 27.25%;
-        height: 20.33%;
-    } */
 
     .avantage {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-        /* padding-bottom: 20px; */
-        font-family: "Montserrat";
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: -1.5%;
+        margin:0;
+        padding: 0;
     }
 
     .image_card1 {
         width: 327px;
         height: 244px;
-        margin-bottom: 76px;
-        margin-left: 103px;
-        object-fit: contain;
+        top: 550px;
+        left: 33px;
         text-align: center;
+        margin: 34px;
     }
 
-
-    .visio_coaching {
-        width: 327px;
-        height: 244px;
-        margin-left: 103px;
-        margin-right: 103px;
-        object-fit: contain;
-        text-align: center;
-        /* margin-bottom: 200px; */
-    }
-
-    #grand_container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        height: auto;
-        background-color: #44DD8A;
-        padding-top: 6.25%;
-        gap: 6.5%;
-    }
-
-    .formation2 {
+    .titre_formation {
         display: none;
+        margin: 0;
     }
 
-    .formation3 {
+    .second_formation {
         display: flex;
-        font-family: "Montserrat";
-        margin-bottom: 27px;
+        width: 366px;
+        height: 79px;
+        top: 27px;
+        left: 13px;
         font-weight: 900;
         font-style: Black;
         font-size: 30px;
@@ -1387,125 +1272,62 @@ footer {
         letter-spacing: -1.5%;
         text-align: center;
         text-transform: uppercase;
-        /* margin-bottom: 200px; */
-    }
-
-    .new_formation {
-        width: 100vw;
-        height: auto;
-    }
-
-    .element_list {
-        list-style: none;
-        padding: 0;
-        font-family: "Montserrat";
-        font-size: 16px;
-        color: #000000;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: -1.5%;
-        width: 100vw;
+    
 
     }
 
-    .element_list li {
-        display: flex;
-        align-items: flex-start;
-        line-height: 1.6;
-    }
-
-    .element_list li::before {
-        content: "";
-        display: block;
-        width: 30px;
-        height: 30px;
-        gap: 15px;
-        flex-shrink: 0;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-left: 39px;
-        margin-top: 10px;
-        background-position: center;
-        line-height: 25px;
-        letter-spacing: -1.5%;
-
-    }
-
-    .vente::before {
-        background-image: url("/ressources/coin-hand.svg");
-    }
-
-    .plateforme::before {
-        background-image: url("/ressources/heart.svg");
-    }
-
-    .contenu::before {
-        background-image: url("/ressources/pencil-01.svg");
-    }
-
-    .facturation::before {
-        background-image: url("/ressources/settings.svg");
-    }
-
-    .conservation::before {
-        background-image: url("/ressources/user-profile-square.svg");
-    }
-
-    /* #a_propos {
+    #grand_container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+
+    }
+
+    .container_interne {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
         align-items: center;
         width: 100%;
         height: auto;
-    } */
-
-    .div_propos {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        height: auto;
-    }
-
-    .card_propos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-right: 30px;
-        /* margin-left: 30px; */
-        padding: 5px;
-        margin-bottom: 14px;
-        width: 100vw;
-        height: auto;
-        font-family: "Montserrat";
-        font-size: 15px;
-        line-height: 20px;
-        letter-spacing: -1.5%;
+        gap: 30px;
 
     }
 
+    .image_author {
+        width: 324px;
+        height: 243px;
+        top: 119px;
+        left: 34px;
+        margin: 0;
 
-    .logo_propos {
+    }
+
+    .colonne_texte {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #152237;
-        width: 100vw;
-        height: 50%;
-
+        height: auto;
+        width: 100%;
     }
 
-    .image_propos {
-        width: 214px;
-        height: 77px;
-        text-align: center;
-
-
+    .avantage_item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
     }
 
-
+    .liste_avantages {
+        display: block;
+        justify-content: flex-start;
+        align-content: space-around;
+    }
 
     .titre_propos {
         display: flex;
@@ -1522,7 +1344,56 @@ footer {
 
     }
 
-    #contacter {
+
+    .div_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .card_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        margin-bottom: 14px;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -1.5%;
+
+    }
+    .paragraphe_propos{
+        height: 340.45px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+    .logo_propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .image_propos {
+        width: 214px;
+        height: 77px;
+        text-align: center;
+    }
+
+     #contacter {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1530,17 +1401,13 @@ footer {
         width: 100%;
         height: auto;
     }
-
     .titre_contacter {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100vw;
-        /* margin-top: 29px; */
-        text-transform: uppercase;
+        width: 100%;
         border-bottom: none;
-        font-family: "Montserrat";
         font-weight: 900;
         font-style: Black;
         font-size: 25px;
@@ -1551,17 +1418,16 @@ footer {
 
     }
 
-    form {
+     form {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         gap: 20px;
         text-align: center;
         margin-top: 39px;
-        width: 80%;
+        width: 100%;
     }
-
-    .name {
+      .name {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1570,12 +1436,9 @@ footer {
         width: 100%;
 
     }
-
-    #username {
-        width: 90vw;
+     #username {
+        width: 100%;
         height: 45.25px;
-        background-color: #152237;
-        font-family: "Montserrat";
         font-weight: 400;
         font-size: 15px;
         line-height: 24px;
@@ -1583,17 +1446,9 @@ footer {
 
     }
 
-    input::placeholder {
-        color: #FFFFFF;
-        margin-right: 16px;
-    }
-
     #usermail {
-        width: 90vw;
+        width: 100%;
         height: 45.25px;
-        background-color: #152237;
-        color: #FFFFFF;
-        font-family: "Montserrat";
         font-weight: 400;
         font-size: 15px;
         line-height: 24px;
@@ -1602,66 +1457,100 @@ footer {
     }
 
     .texte {
-        width: 90vw;
+        width: 100%;
         height: 194.64px;
-        background-color: #152237;
-        color: #FFFFFF;
-        font-family: Montserrat;
         font-weight: 400;
         font-size: 15px;
         line-height: 24px;
         letter-spacing: -1.5%;
 
     }
-
-    .texte::placeholder {
-        color: #FFFFFF
-    }
-
-    ;
-
-    .tt {
-        border-radius: 6px;
-    }
-
     #btn_submit {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-self: stretch;
         text-align: center;
-        width: 90vw;
-        color: #152237;
-        background-color: #44DD8A;
+        width: 100%;
         border: none;
-        /* padding: 10px; */
         border-radius: 6px;
-        /* margin-bottom: 77.42px; */
-        /* margin-left: 19px; */
-        /* margin-right: 18px; */
+       
     }
+
+
+.card_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+    height: auto;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+}
+
+
+
+.Contact { 
+    width: fit-content;
+    text-align: left; 
+}
+
+.texte_gras {
+    font-weight: bold;
+    text-align: center; 
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.div-contact {
+    display: flex;
+    flex-direction: row;
+    width: auto; 
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    margin-bottom: 5px; 
+}
+
+
+.div-contact .symbole1 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    margin-right: 10px;
+    display: block;
+    flex-shrink: 0;
+}
+
+.telephone {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; 
+}
+
+.numero {
+    
+    margin-right: 0; 
+}
 
     .footer_contain {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding: 40px 20px; */
         width: 100%;
+        height: auto;
 
     }
-
-    .card_footer {
+.card_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #152237;
         width: 100%;
+        height: auto;
         margin-bottom: 50px;
-        /* padding: 91px; */
-        /* margin-left: 50px; */
-        /* margin-right: 50px; */
     }
 
     .div-contact {
@@ -1673,17 +1562,15 @@ footer {
         line-height: 24px;
         letter-spacing: -1.5%;
         width: 100%;
-        /* margin-bottom: 40px; */
-        /* height: auto; */
-        /* gap: 10px */
+        height: auto;
     }
-
-    .container_footer {
+     .container_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: auto;
 
     }
 
@@ -1692,6 +1579,9 @@ footer {
         height: 87px;
         margin-bottom: 30px;
     }
+
+
+
 
     .divider {
         display: none;
@@ -1719,22 +1609,15 @@ footer {
         display: none;
     }
 
-    .telephone {
-        width: 24px;
-        height: 24px;
-        margin-right: 31px;
-    }
+   
 
-    .numero {
-        margin-right: 15px;
-    }
 
     .texte_gras {
         font-weight: bold;
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
-        color: #FFFFFF;
+
     }
 
     .mention {
@@ -1751,9 +1634,5 @@ footer {
         display: block;
     }
 
-    /* .lien p{
-        margin: 0;
-        color: #FFFFFF;
-        font-size: 15px;
-    } */
+
 }
