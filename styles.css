@@ -169,7 +169,8 @@ header {
 
 
 }
-.card_prix{
+
+.card_prix {
     width: 305px;
     height: 206px;
     position: relative;
@@ -490,12 +491,14 @@ header {
 }
 
 .image_card1 {
-   width: 727px;
-height: 472px;   
-    
+    width: 727px;
+    height: 472px;
+
 }
-.colonne_texte{
-    margin-top:  40px; ;
+
+.colonne_texte {
+    margin-top: 40px;
+    ;
 }
 
 
@@ -536,7 +539,7 @@ height: 472px;
     justify-content: center;
     align-content: space-around;
     gap: 78px;
-    padding:25px;
+    padding: 25px;
 }
 
 .new_formation {
@@ -607,7 +610,7 @@ height: 472px;
     margin-top: 78px;
     margin-bottom: 76px;
     pointer-events: none;
-  
+
 }
 
 .formation2 {
@@ -647,10 +650,11 @@ height: 472px;
     letter-spacing: -1.5%;
 
 }
-.paragraphe_propos{
+
+.paragraphe_propos {
     width: 82.65%;
     height: auto;
-   
+
 }
 
 .logo_propos {
@@ -1053,7 +1057,7 @@ footer {
 
     }
 
-    
+
 
 
     #grande_card {
@@ -1107,7 +1111,7 @@ footer {
 
     }
 
-   
+
 
     #grande_card1 {
         display: flex;
@@ -1156,7 +1160,8 @@ footer {
         vertical-align: middle;
 
     }
-    #conteneur_avis{
+
+    #conteneur_avis {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1240,8 +1245,21 @@ footer {
         gap: 30px;
     }
 
+    .title_klivio {
+        text-align: center;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+        text-transform: uppercase;
+
+
+    }
+
     .avantage {
-        margin:0;
+        margin: 0;
         padding: 0;
     }
 
@@ -1272,7 +1290,7 @@ footer {
         letter-spacing: -1.5%;
         text-align: center;
         text-transform: uppercase;
-    
+
 
     }
 
@@ -1283,7 +1301,7 @@ footer {
         align-items: center;
         height: auto;
         width: 100%;
-        
+
 
     }
 
@@ -1371,7 +1389,8 @@ footer {
         letter-spacing: -1.5%;
 
     }
-    .paragraphe_propos{
+
+    .paragraphe_propos {
         height: 340.45px;
         height: auto;
         margin-bottom: 10px;
@@ -1393,7 +1412,7 @@ footer {
         text-align: center;
     }
 
-     #contacter {
+    #contacter {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1401,6 +1420,7 @@ footer {
         width: 100%;
         height: auto;
     }
+
     .titre_contacter {
         display: flex;
         flex-direction: column;
@@ -1418,7 +1438,7 @@ footer {
 
     }
 
-     form {
+    form {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1427,7 +1447,8 @@ footer {
         margin-top: 39px;
         width: 100%;
     }
-      .name {
+
+    .name {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1436,7 +1457,8 @@ footer {
         width: 100%;
 
     }
-     #username {
+
+    #username {
         width: 100%;
         height: 45.25px;
         font-weight: 400;
@@ -1465,6 +1487,7 @@ footer {
         letter-spacing: -1.5%;
 
     }
+
     #btn_submit {
         display: flex;
         flex-direction: row;
@@ -1474,65 +1497,65 @@ footer {
         width: 100%;
         border: none;
         border-radius: 6px;
-       
+
     }
 
 
-.card_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    width: 100%; 
-    height: auto;
-    margin-bottom: 50px;
-    padding: 0 20px; 
-}
+    .card_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
 
 
 
-.Contact { 
-    width: fit-content;
-    text-align: left; 
-}
+    .Contact {
+        width: fit-content;
+        text-align: left;
+    }
 
-.texte_gras {
-    font-weight: bold;
-    text-align: center; 
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-
-.div-contact {
-    display: flex;
-    flex-direction: row;
-    width: auto; 
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: -1.5%;
-    margin-bottom: 5px; 
-}
+    .texte_gras {
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
 
 
-.div-contact .symbole1 {
-    width: 24px;
-    height: 24px;
-    min-width: 24px;
-    margin-right: 10px;
-    display: block;
-    flex-shrink: 0;
-}
+    .div-contact {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        margin-bottom: 5px;
+    }
 
-.telephone {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px; 
-}
 
-.numero {
-    
-    margin-right: 0; 
-}
+    .div-contact .symbole1 {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        margin-right: 10px;
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .telephone {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+
+    .numero {
+
+        margin-right: 0;
+    }
 
     .footer_contain {
         display: flex;
@@ -1543,7 +1566,8 @@ footer {
         height: auto;
 
     }
-.card_footer {
+
+    .card_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1564,7 +1588,8 @@ footer {
         width: 100%;
         height: auto;
     }
-     .container_footer {
+
+    .container_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1609,7 +1634,7 @@ footer {
         display: none;
     }
 
-   
+
 
 
     .texte_gras {
