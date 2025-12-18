@@ -16,19 +16,21 @@
 <body>
     <header class="flex flex-row items-center  justify-evenly font-bold w-full bg-black h-20 p-20 gap-0 ">
 
-        <img src="/ressources/logo.png" alt="logo klivio" class="w-25 sm:mr-20 h-[31px] w-[80px]"  >
-        <img src="/ressources/burger_menu.svg" alt="menu déroulant"  class="hidden">
+        <img src="/ressources/logo.png" alt="logo klivio" class="w-25 sm:mr-20 h-[31px] w-[80px]">
+        <img src="/ressources/burger_menu.svg" alt="menu déroulant" class="hidden">
 
-        <a href="#" class="text-lg sm:mr-32 text-white">Les formations</a>
+        <a href="#" class="text-lg  text-white">Les formations</a>
 
-        <div class="relative w-full max-w-xl">
-            <input type="search" placeholder="Rechercher" class="w-full  h-[40px] bg-gray-600 rounded-[6px] text-white text-[15px] placeholder-gray-300 pl-[15px] pr-[40px] bg-[url(/ressources/icone\ \(1\).svg)"  >
-            
+        <div class="relative w-full max-w-xl flex justify-center">
+            <input type="search" placeholder="Rechercher"
+                class="w-80  h-[40px] bg-gray-600 rounded-[6px] text-white text-[15px]  pl-[15px] pr-[40px] bg-[url(/ressources/icone\ \(1\).svg)">
+
         </div>
 
         <div class="flex flex-row   justify-end items-center ml-10 gap-[20px]">
-            <button class="bg-pink-100 rounded-[6px] w-[130px] h-[40px] text-[15px]">Connexion</button>
-            <button class="bg-lime-400 rounded-[6px] w-[130px] h-[40px] text-[15px]">Inscription</button>
+            <button class="bg-pink-100 rounded-[6px] w-[130px] h-[40px] text-[15px] hover:opacity-45">Connexion</button>
+            <button
+                class="bg-lime-400 rounded-[6px] w-[130px] h-[40px] text-[15px] hover:opacity-50">Inscription</button>
 
         </div>
     </header>
@@ -36,10 +38,15 @@
 
 
     <section>
-        <div class=" flex flex-col justify-center items-center bg-[url('../ressources/bg-header.png')] w-full h-[451px] bg-cover  bg-linear-to-t from-sky-500 to-indigo-500">
-            <h1 class=" text-center content-center font-[800] text-[48px] mt-[151px] text-white">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h1>
-            <p class="text-center content-center font-[500] text-[20px] w-full text-white">LES MEILLEURS FORMATIONS SUR LE DEVELOPPEMENT PERSONNEL</p>
-            <button class="bg-purple-50 text-black rounded-[6px] w-[130px] h-[40px] mt-[22px] text-center content-center  hover:bg-lime-600">En savoir plus</button>
+        <div
+            class=" flex flex-col justify-center items-center bg-[url('../ressources/bg-header.png')] w-full h-[451px] bg-cover  bg-linear-to-t from-sky-500 to-indigo-500">
+            <h1 class=" text-center content-center font-[800] text-[48px] mt-[151px] text-white">KLIVIO, L'ALLIÉ DE
+                VOTRE PROGRESSION</h1>
+            <p class="text-center content-center font-[500] text-[20px] w-full text-white">LES MEILLEURS FORMATIONS SUR
+                LE DEVELOPPEMENT PERSONNEL</p>
+            <button
+                class="bg-purple-50 text-black rounded-[6px] w-[130px] h-[40px] mt-[22px] text-center content-center  hover:bg-lime-600">En
+                savoir plus</button>
         </div>
 
     </section>
@@ -48,14 +55,20 @@
     <section class="h-[632px] w-full p-[30px] mt-[0]  bg-stone-200">
         <h3 class="font-[500] text-[30px] mt-[34px] mb-[10px] text-center underline">Les formations populaires</h3>
 
-        <div class="flex flex-row justify-between w-full gap-[30px]">
+        <div class="grid grid-cols-1 md:grid-cols-4 w-full gap-[30px]">
 
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img  src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail" class="rounded-2xl w-[305px] h-[206px]" >
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg" >
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Parler en public</h4>
                     <p>Sonia Lefèvre| Coach prise de parole</p>
@@ -66,11 +79,18 @@
             </div>
 
             <div class="flex flex-col items-center gap-5">
-               <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-jopwell.svg" alt="image d'une collaboratrice parcours ses notes sur son ordinateur" class="rounded-2xl w-[305px] h-[206px]">
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                <div class="relative w-[305px] h-[206px]">
+                    <img src="/ressources/pexels-jopwell.svg"
+                        alt="image d'une collaboratrice parcours ses notes sur son ordinateur"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Gérer le stress</h4>
                     <p>Lucie Garnier| Formatrice</p>
@@ -81,10 +101,17 @@
             </div>
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-jopwell.svg" alt="image d'une collaboratrice parcours ses notes sur son ordinateur" class="rounded-2xl w-[305px] h-[206px]">
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-jopwell.svg"
+                        alt="image d'une collaboratrice parcours ses notes sur son ordinateur"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Travailler en équipe</h4>
                     <p>David Moreau| Expert</p>
@@ -96,10 +123,16 @@
             </div>
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail" class="rounded-2xl w-[305px] h-[206px]" >
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Parler en public</h4>
                     <p>Sonia Lefèvre| Coach prise de parole</p>
@@ -109,21 +142,30 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row content-center justify-center mt-11"><button class="rounded-[6px] bg-slate-950 text-slate-200 w-52 h-10 content-center items-center  hover:bg-lime-600">Voir plus de formations</button></div>
+        <div class="flex flex-row content-center justify-center mt-11"><button
+                class="rounded-[6px] bg-slate-950 text-slate-200 w-52 h-10 content-center items-center  hover:bg-lime-600">Voir
+                plus de formations</button></div>
 
     </section>
 
     <section class="h-[632px] w-full p-8 mt-0 bg-[#E5F0FF]">
-        <h3 class="font-[500] text-[30px] mt-[34px] mb-[10px] text-black underline text-center">Les formations récentes</h3>
+        <h3 class="font-[500] text-[30px] mt-[34px] mb-[10px] text-black underline text-center">Les formations récentes
+        </h3>
 
-         <div class="flex flex-row justify-between w-full gap-[30px]">
+        <div class="grid grid-cols-1 md:grid-cols-4 w-full gap-[30px]">
 
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img  src="/ressources/pexels-julia-m-cameron.svg"alt="image de collaboratrice en télé-travail" class="rounded-2xl w-[305px] h-[206px]" >
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg" >
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Mieux communiquer</h4>
                     <p>Julien Martel| Coach en comm.</p>
@@ -134,11 +176,18 @@
             </div>
 
             <div class="flex flex-col items-center gap-5">
-               <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-jopwell.svg" alt="image d'une collaboratrice parcours ses notes sur son ordinateur" class="rounded-2xl w-[305px] h-[206px]">
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                <div class="relative w-[305px] h-[206px]">
+                    <img src="/ressources/pexels-jopwell.svg"
+                        alt="image d'une collaboratrice parcours ses notes sur son ordinateur"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Maîtriser ses émotions</h4>
                     <p>Amel Benali| Psy. du travail</p>
@@ -149,10 +198,16 @@
             </div>
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-julia-m-cameron.svg"alt="image de collaboratrice en télé-travail" class="rounded-2xl w-[305px] h-[206px]">
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-julia-m-cameron.svg" alt="image de collaboratrice en télé-travail"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Résoudre les problèmes</h4>
                     <p>Thomas Rivière| Expert</p>
@@ -164,10 +219,17 @@
             </div>
             <div class="flex flex-col items-center gap-5">
                 <div class="relative w-[305px] h-[206px]">
-                <img src="/ressources/pexels-jopwell.svg" alt="image d'une collaboratrice parcours ses notes sur son ordinateur" class="rounded-2xl w-[305px] h-[206px]">
-                <div class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48"><span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span></div>
+                    <img src="/ressources/pexels-jopwell.svg"
+                        alt="image d'une collaboratrice parcours ses notes sur son ordinateur"
+                        class="rounded-2xl w-[305px] h-[206px] hover:opacity-40">
+                    <div
+                        class="absolute flex items-center justify-center w-36 h-10 rounded-[93px] bg-slate-950 ml-[11px] text-white right-3 top-48">
+                        <span class="font-[700] text-[20px] leading-[20Px]">15,99€</span> <span
+                            class="font-[700] text-[10px] line-through ml-[7px] leading-[7px] text-white">60€</span>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
+                <div
+                    class="flex flex-col items-center justify-evenly w-full mt-5 border-2 border-solid border-black pl-0 h-36 rounded-lg">
 
                     <h4>Leadership positif</h4>
                     <p>Marc Nguyen| Consultant</p>
@@ -177,7 +239,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row content-center justify-center mt-11"><button class="rounded-[6px] bg-slate-950 text-slate-200 w-52 h-10 content-center items-center hover:bg-lime-600">Voir plus de formations</button></div>
+        <div class="flex flex-row content-center justify-center mt-11"><button
+                class="rounded-[6px] bg-slate-950 text-slate-200 w-52 h-10 content-center items-center hover:bg-lime-600">Voir
+                plus de formations</button></div>
 
     </section>
 
@@ -187,7 +251,8 @@
         <div class="flex flex-row justify-between content-center p-[58px] w-full h-[597px] gap-6">
 
             <div class=" flex flex-col items-center gap-5 w-full h-[306px]">
-                <img src="/ressources/juliette.png" alt="image de la cliente Juliette" class="rounded-full">
+                <img src="/ressources/juliette.png" alt="image de la cliente Juliette"
+                    class="rounded-full hover:opacity-40">
                 <h3>Juliette</h3>
                 <img src="/ressources/note.svg" alt="note exprimé avec 5 étoiles de la part de Juliette">
                 <p>J'ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et
@@ -199,7 +264,8 @@
 
             <div class=" flex flex-col items-center gap-5 w-full h-[306px]">
 
-                <img src="/ressources/camille.png" alt="image de la cliente Camille" class="rounded-full">
+                <img src="/ressources/camille.png" alt="image de la cliente Camille"
+                    class="rounded-full hover:opacity-40">
                 <h3>Camille</h3>
                 <img src="/ressources/note.svg" alt="note exprimé avec 5 étoiles de la part de Camille">
                 <p>Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support
@@ -212,144 +278,149 @@
 
     </section>
 
-    <section>
-        <div>
-            <h3>LES AVANTAGES KLIVIO</h3>
-            <div>
+    <section class="flex flex-row justify-around content-center w-full h-[641px] bg-[#152237] p-[50px]">
+        <div class="flex flex-col font-[400] text-[24px]   text-[#FFFFFF]">
+            <h3 class="font-[900] text-3xl text-center w-[686px] h-[47px] mt-20 flex justify-center underline">LES
+                AVANTAGES KLIVIO</h3>
+            <div class="flex flex-row  items-center gap-5">
                 <img src="/ressources/arrow-up-right.svg" alt="suivie de sa progression">
                 <p>Suivi de sa progression</p>
 
             </div>
-            <div>
+            <div class="flex flex-row gap-5  items-center">
                 <img src="/ressources/edit-01.svg" alt="exercice pour la pratique">
                 <p>Exercices et QCM pour la mise en pratique</p>
             </div>
 
-            <div>
+            <div class="flex flex-row gap-5  items-center">
                 <img src="/ressources/telechargement.svg" alt="télécharger/ imprimer sa formation">
                 <p>Possibilité de télécharger imprimer les formations</p>
             </div>
 
-            <div>
+            <div class="flex flex-row gap-5  items-center">
                 <img src="/ressources/star-02.svg" alt="vérifier son contenu">
                 <p>Contenu qualitatif et vérifié</p>
             </div>
 
-            <div>
+            <div class="flex flex-row gap-5  items-center">
                 <img src="/ressources/clock-backward.svg" alt="suivi en autonomie">
                 <p>Suivi en autonomie, 24h/24, 7j/7</p>
             </div>
 
-            <div>
+            <div class="flex flex-row gap-5  items-center">
                 <img src="/ressources/annotation-typing.svg"
                     alt="Espaces d'échange pour poer des questions sur la formation">
                 <p>Espaces d’échanges dédiés pour poser ses questions sur les formations</p>
             </div>
         </div>
 
-        <img src="/ressources/avantages.png" alt="image d'une collaboratrice sur son poste de travail">
+        <img src="/ressources/avantages.png" alt="image d'une collaboratrice sur son poste de travail"
+            class="w-[500px] h-[400px] mt-28 mr-8 rounded-3xl">
 
 
 
     </section>
 
-    <section>
-        <h3>CRÉEZ VOS FORMATIONS</h3>
-        <div>
-            
-                <img src="/ressources/become-author.png" alt="Femme en visio et coach qui écrit">
-        
+    <section class="flex flex-row justify-around content-center w-full h-[641px] bg-[#375653] p-[50px]">
+        <h3 class="hidden">CRÉEZ VOS FORMATIONS</h3>
+        <div class="flex flex-row justify-around content-center gap-[30px]">
 
-            <div>
+            <img src="/ressources/become-author.png" alt="Femme en visio et coach qui écrit"
+                class="w-[500px] h-[400px] mt-28 ml-8 rounded-3xl">
 
-                <h3>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h3>
 
-                <div>
+            <div class="flex flex-col items-center gap-[20px] font-[400] text-[24px]   text-[#FFFFFF]">
 
-                    <div>
-                        <div></div>
+                <h3 class="font-[800] text-[30px] mt-[34px] mb-3 flex justify-center underline">CRÉEZ VOS FORMATIONS AVEC KLIVIO
+                </h3>
+
+                <div class="w-full h-auto gap-[30px] mb-5">
+                    <div class="flex flex-row items-center gap-10 mb-3">
+                        <img src="/ressources/coin-hand.svg" alt="icone de la vente">
                         <div>Commission unique, au pourcentage sur les ventes</div>
                     </div>
 
-                    <div>
-                        <div></div>
+                    <div class="flex flex-row items-center gap-10 mb-3">
+                        <img src="/ressources/heart.svg" alt="icone plateforme">
                         <div>Mise en avant sur la plateforme</div>
                     </div>
 
-                    <div>
-                        <div></div>
+                    <div class="flex flex-row items-center gap-10 mb-3">
+                        <img src="/ressources/pencil-01.svg" alt="icone contenu">
                         <div>Contrôle total sur le cours : contenu, prix</div>
                     </div>
 
-                    <div>
-                        <div></div>
+                    <div class="flex flex-row items-center gap-10 mb-3">
+                        <img src="/ressources/settings.svg" alt="icone facturation">
                         <div>Fonctionnalités avancées : espace commentaires, possibilité de créer
                             des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes,
                             gestion de codes promos, gestion de la facturation, etc</div>
                     </div>
 
-                    <div>
-                        <div></div>
+                    <div class="flex flex-row items-center gap-10 mb-3">
+                        <img src="/ressources/user-profile-square.svg" alt="icone conservation">
                         <div>Le professeur reste 100% propriétaire de sa formation et conserve
                             tous ses droits d’auteur</div>
                     </div>
                 </div>
+
+
             </div>
-
-        </div>
     </section>
-    <section>
-        <div>
-            <div>
+    <section class="flex flex-row justify-center content-between w-full h-[740px]">
+        <div class="flex flex-row items-center w-full">
+            <div class="flex flex-col  justify-center  items-center w-1/2 mb-[14px] h-[372px] text-[15px] leading-7">
 
-                <h2>À propos de Klivio</h2>
-                <div>
-                <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous
-                    nous
-                    engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la
-                    qualité
-                    de leur travail. <br> <br>
-                </p>
+                <h2 class="font-[900] text-4xl uppercase underline leading-9 mb-10">À propos de Klivio</h2>
+                <div class="mx-4">
+                    <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative.
+                        Nous
+                        nous
+                        engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la
+                        qualité
+                        de leur travail. <br> <br>
+                    </p>
 
-                <p> Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
-                    nécessaire pour explorer divers sujets. La transparence est au cœur de notre
-                    démarche, garantissant une clarté totale sur les formations que les instructeurs proposent.
-                    Ensemble,ces
-                    valeurs forment le socle d'une ducation enrichissante et équitable, guidant notre mission d'offrir
-                    des
-                    opportunités d'apprentissage de qualité
-                </p>
+                    <p> Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
+                        nécessaire pour explorer divers sujets. La transparence est au cœur de notre
+                        démarche, garantissant une clarté totale sur les formations que les instructeurs proposent.
+                        Ensemble,ces
+                        valeurs forment le socle d'une ducation enrichissante et équitable, guidant notre mission
+                        d'offrir
+                        des
+                        opportunités d'apprentissage de qualité
+                    </p>
                 </div>
 
             </div>
-            <div>
+            <div class="flex content-center justify-center items-center h-full w-1/2 bg-[#152237] object-cover">
                 <img src="/ressources/logo.png" alt="logo de Klivio">
             </div>
         </div>
     </section>
-    <section>
+    <section class="flex flex-col content-center items-center w-full h-full">
 
-        <h2>Nous contacter</h2>
+        <h2 class="flex flex-row font-[900] text-[30px] leading-9 uppercase underline content-center mt-5">Nous contacter</h2>
 
-        <form>
-            <div>
-                <input type="text" placeholder="Nom" required>
-                <input type="email" placeholder="Email">
+        <form class="flex flex-col content-around text-center  gap-5 w-80% mt-10">
+            <div class="flex flex-row justify-between gap-5 w-full">
+                <input type="text" placeholder="Nom" required class="w-80% h-11 text-2xl leading-6 bg-[#152237] font-[400] placeholder:text-[#FFFFFF] mr-4 text-[#FFFFFF]">
+                <input type="email" placeholder="Email" class="w-80% h-11 text-2xl leading-6 bg-[#152237] font-[400] placeholder:text-[#FFFFFF] mr-4 text-[#FFFFFF]">
             </div>
-            <textarea placeholder="votre message" required></textarea> <br>
-            <button type="submit">envoyer</button>
+            <textarea placeholder="votre message" required class="w-80% h-44 text-2xl leading-6 bg-[#152237] font-[400]  placeholder:text-[#FFFFFF] mr-4 text-[#FFFFFF]"></textarea> <br>
+            <button type="submit" class=" flex flex-row  bg-lime-600 self-center text-black rounded-[6px] w-80 h-12   text-2xl justify-center items-center hover:bg-[#44DD8A] mb-10">envoyer</button>
         </form>
     </section>
 
-    <footer>
-        <div>
-
-            <div>
-                <img src="/ressources/png_blanc_2.svg" alt="logo klivio">
-                <div>
-                    <div>
-                        <p>Mentions légales</p>
-                        <div>
+    <footer class="flex flex-col content-between bg-[#152237] w-full h-[489px]">
+        
+        <div class="flex flex-row  justify-between  w-full  text-[#FFFFFF] p-20">
+            <div class="flex flex-row content-between justify-center gap-10">
+                <img src="/ressources/png_blanc_2.svg" alt="logo klivio" class="w-3.51% h-[87px] hover:opacity-55">
+                <div class="flex flex-row justify-center content-center">
+                    <div class="flex flex-col items-center gap-5">
+                        <p class="font-extrabold">Mentions légales</p>
+                        <div class="flex flex-col items-center gap-5">
                             <p>CGU</p>
                             <P>CGV</P>
                             <P>FAQ</P>
@@ -361,35 +432,35 @@
                 </div>
             </div>
 
-            <div>
-                <p>Cordonnées</p>
-                <div>
+            <div class="flex flex-col items-center gap-5">
+                <p class="font-extrabold">Cordonnées</p>
+                <div class="flex flex-row justify-center gap-5">
                     <img src="/ressources/localisation.svg" alt="localisation">
                     <p>1 place république,<br>75003 Paris</p>
 
                 </div>
-                <div>
+                <div class="flex flex-row justify-between text-lg leading-4 gap-5">
                     <img src="/ressources/telephone.svg" alt="logo telephone">
                     <p>01.02.03.04.05</p>
                 </div>
-                <div>
+                <div class="flex flex-row justify-center gap-5">
                     <img src="/ressources/mail-01.svg" alt="mail">
                     <p>contact@klivio.fr</p>
 
                 </div>
 
             </div>
-            <div>
-                <button>Connexion</button>
-                <button>Inscription</button>
+            <div class="flex flex-col gap-10">
+                <button class="bg-pink-100 rounded-[6px] w-[130px] h-[40px] text-[15px] hover:opacity-45 text-black text-2xl font-extrabold">Connexion</button>
+                <button class="bg-lime-400 rounded-[6px] w-[130px] h-[40px] text-[15px] hover:opacity-50 text-black text-2xl font-extrabold">Inscription</button>
 
             </div>
         </div>
         <div></div>
-        <div>
-            <p>©Klivio-2025</p>
-            <div>
-                <p>Suivez-nous</p>
+        <div class="flex flex-row justify-evenly  mb-20 bg-[#44DD8A] w-full h-auto  p-9">
+            <p class="font-extrabold">©Klivio-2025</p>
+            <div class="flex flex-row content-between gap-6">
+                <p class="font-extrabold">Suivez-nous</p>
                 <a href="https://www.facebook.com"><img src="/ressources/Social_Icons.svg" alt="facebook"></a>
                 <a href="https://x.com"><img src="/ressources/Vector.svg" alt="le réseau X"></a>
                 <a href="https://www.instagram.com"><img src="/ressources/Social_Instagram.svg" alt="Instgram"></a>
