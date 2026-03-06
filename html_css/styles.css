@@ -97,8 +97,8 @@ header {
 
 .btn_inscription {
     background: linear-gradient(to right,
-            rgba(68, 221, 138, 1),
-            rgba(21, 183, 226, 1));
+            rgba(21, 183, 226, 1),
+            rgba(68, 221, 138, 1));
     color: white;
 }
 
@@ -161,10 +161,19 @@ header {
 }
 
 .titre_formation {
-    font-weight: 800;
-    font-size: 30px;
-    margin-top: 34px;
-    margin-bottom: 10px;
+    width: 686px;
+    height: 93px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+
+
+    /* margin-top: 34px;
+    margin-bottom: 10px; */
 
 
 }
@@ -315,8 +324,6 @@ header {
     justify-content: space-evenly;
     width: 100%;
     margin-top: 21px;
-
-
 }
 
 .message1,
@@ -420,9 +427,31 @@ header {
 
 }
 
+.titre_formation1 {
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+
+}
+
 .image_client {
     border-radius: 50%;
     margin-top: 3px;
+}
+
+.client1 {
+    width: 41.01%;
+    height: 51.25%;
+}
+
+.client2 {
+    width: 39.58%;
+    height: 51.25%;
 }
 
 .avis_client {
@@ -441,8 +470,17 @@ header {
 
 }
 
+.message4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+
+}
+
 .image2 {
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 #avantage_klivio {
@@ -496,16 +534,17 @@ header {
 }
 
 .colonne_texte {
-    margin-top: 40px;
-    
+    margin-top: 0;
+
 }
 
 
 .avantage_card {
     display: flex;
     flex-direction: column;
-
-    padding-right: 98px;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 98px; */
     font-family: "Montserrat";
     font-weight: 400;
     font-size: 24px;
@@ -535,9 +574,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-around;
-    gap: 78px;
-    padding: 25px;
+    align-items: center;
+    gap: 25px;
+    padding: 78px;
 }
 
 .new_formation {
@@ -576,17 +615,16 @@ header {
 .container_interne {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+    align-items: center;
     gap: 30px;
 }
 
 .image_author {
     width: 729px;
     height: 487px;
-    margin-top: 78px;
-    margin-bottom: 76px;
-    pointer-events: none;
+    margin-top: 0;
+
+
 
 }
 
@@ -715,12 +753,26 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     gap: 20px;
     text-align: center;
     margin-top: 39px;
     width: 80%;
+}
 
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
 
+.input-group label {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 15px;
+    color: #152237;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .name {
@@ -728,12 +780,16 @@ form {
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
-    width: 100%;
-
+    width: 80%;
 }
 
+.name .input-group {
+    width: 100%;
+}
+
+
 #username {
-    width: 45%;
+    width: 100%;
     height: 45.25px;
     background-color: #152237;
     font-family: "Montserrat";
@@ -750,7 +806,7 @@ input::placeholder {
 }
 
 #usermail {
-    width: 45%;
+    width: 100%;
     height: 45.25px;
     background-color: #152237;
     color: #FFFFFF;
@@ -961,14 +1017,14 @@ footer {
     font-weight: bold;
 }
 
+
 @media (max-width: 800px) {
-   @media (max-width: 800px) {
     header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-        height: 80px;
+        height: auto;
 
 
     }
@@ -1040,8 +1096,9 @@ footer {
     #grande_card {
         display: flex;
         flex-direction: column;
-        justify-items: center;
+        justify-content: center;
         align-items: center;
+        padding: 47px;
         width: 100%;
         height: auto;
     }
@@ -1061,16 +1118,16 @@ footer {
     #formation_section {
         display: flex;
         flex-direction: column;
-        justify-items: center;
+        align-items: center;
         height: auto;
         width: 100%;
     }
 
-    .image1 {
+    /* .image1 {
         width: 305px;
         height: 206px;
         text-align: center;
-    }
+    } */
 
     .btn_voirplus {
         border-radius: 6px;
@@ -1078,7 +1135,7 @@ footer {
         height: 40px;
         justify-content: center;
         align-content: center;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-weight: 500;
         font-size: 15px;
         line-height: 100%;
@@ -1094,7 +1151,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-items: center;
+        justify-content: center;
+        padding: 47px;
         width: 100%;
         height: auto;
 
@@ -1115,7 +1173,7 @@ footer {
     #formation_section1 {
         display: flex;
         flex-direction: column;
-        justify-items: center;
+        justify-content: center;
         align-items: center;
         height: auto;
         width: 100%;
@@ -1128,7 +1186,7 @@ footer {
         height: 40px;
         justify-content: center;
         align-content: center;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-weight: 500;
         font-size: 15px;
         line-height: 100%;
@@ -1249,7 +1307,7 @@ footer {
         margin: 34px;
     }
 
-    .titre_formation {
+    .titre_formation1 {
         display: none;
         margin: 0;
     }
@@ -1421,13 +1479,15 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
+        padding: 10px;
         gap: 20px;
         text-align: center;
         margin-top: 39px;
         width: 100%;
     }
 
-    .name {
+    /* .name {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1435,9 +1495,34 @@ footer {
         gap: 20px;
         width: 100%;
 
+    } */
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
     }
 
-    #username {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-group label {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 14px;
+        color: #152237;
+        margin-bottom: 6px;
+        text-align: left;
+    }
+     .name .input-group {
+        width: 100%;
+    }
+
+    /* #username {
         width: 100%;
         height: 45.25px;
         font-weight: 400;
@@ -1455,9 +1540,23 @@ footer {
         line-height: 24px;
         letter-spacing: -1.5%;
 
+    } */
+
+    #username,
+    #usermail {
+        width: 100%;
+        height: 45.25px;
+        background-color: #152237;
+        color: white;
+        border: none;
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
     }
 
-    .texte {
+    /* .texte {
         width: 100%;
         height: 194.64px;
         font-weight: 400;
@@ -1465,6 +1564,19 @@ footer {
         line-height: 24px;
         letter-spacing: -1.5%;
 
+    } */
+     .texte {
+        width: 100%;
+        height: 194.64px;
+        background-color: #152237;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        resize: none;
     }
 
     #btn_submit {
@@ -1475,7 +1587,7 @@ footer {
         text-align: center;
         width: 100%;
         border: none;
-        border-radius: 6px;
+        
 
     }
 
@@ -1627,7 +1739,5 @@ footer {
         display: block;
     }
 
-
-}
 
 }
